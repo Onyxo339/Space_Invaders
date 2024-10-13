@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://c5kn4sljt1pfj"]
+
+[ext_resource type="Script" path="res://alien.gd" id="1_xwefs"]
+[ext_resource type="Texture2D" uid="uid://d3kq6cv0mvyiu" path="res://alien (3).png" id="2_s1pnk"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_rvl66"]
+size = Vector2(83, 53)
+
+[node name="alien" type="Node2D"]
+position = Vector2(0, 29)
+
+[node name="alien" type="CharacterBody2D" parent="."]
+position = Vector2(0, -29)
+script = ExtResource("1_xwefs")
+
+[node name="Sprite2D" type="Sprite2D" parent="alien"]
+position = Vector2(-2.27374e-13, 0)
+scale = Vector2(0.282986, 0.2375)
+texture = ExtResource("2_s1pnk")
+
+[node name="box" type="CollisionShape2D" parent="alien"]
+position = Vector2(0, 2)
+shape = SubResource("RectangleShape2D_rvl66")

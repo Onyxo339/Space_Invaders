@@ -1,0 +1,98 @@
+[gd_scene load_steps=4 format=3 uid="uid://d5powa5bkq0k"]
+
+[ext_resource type="PackedScene" uid="uid://de06fjdxv2jc7" path="res://wall.tscn" id="1_1moc8"]
+[ext_resource type="PackedScene" uid="uid://8hchvrgrbj8o" path="res://player.tscn" id="2_y68gs"]
+[ext_resource type="PackedScene" uid="uid://c5kn4sljt1pfj" path="res://alien.tscn" id="3_hifwd"]
+
+[node name="Game" type="Node2D"]
+position = Vector2(2, 0)
+
+[node name="Wall" parent="." instance=ExtResource("1_1moc8")]
+position = Vector2(-12, 638)
+
+[node name="Wall2" parent="." instance=ExtResource("1_1moc8")]
+position = Vector2(1160, 638)
+
+[node name="Player" parent="." instance=ExtResource("2_y68gs")]
+position = Vector2(573, 575)
+
+[node name="alien" parent="." instance=ExtResource("3_hifwd")]
+position = Vector2(296, 84)
+
+[node name="alien2" parent="." instance=ExtResource("3_hifwd")]
+position = Vector2(393, 84)
+
+[node name="alien3" parent="." instance=ExtResource("3_hifwd")]
+position = Vector2(484, 84)
+
+[node name="alien4" parent="." instance=ExtResource("3_hifwd")]
+position = Vector2(575, 84)
+
+[node name="alien5" parent="." instance=ExtResource("3_hifwd")]
+position = Vector2(199, 83)
+
+[node name="alien9" parent="." instance=ExtResource("3_hifwd")]
+position = Vector2(667, 85)
+
+[node name="alien10" parent="." instance=ExtResource("3_hifwd")]
+position = Vector2(761, 84)
+
+[node name="alien11" parent="." instance=ExtResource("3_hifwd")]
+position = Vector2(854, 85)
+
+[node name="alien12" parent="." instance=ExtResource("3_hifwd")]
+position = Vector2(945, 83)
+
+[node name="alien6" parent="." instance=ExtResource("3_hifwd")]
+position = Vector2(295, 151)
+
+[node name="alien7" parent="." instance=ExtResource("3_hifwd")]
+position = Vector2(392, 151)
+
+[node name="alien8" parent="." instance=ExtResource("3_hifwd")]
+position = Vector2(482, 150)
+
+[node name="alien13" parent="." instance=ExtResource("3_hifwd")]
+position = Vector2(574, 151)
+
+[node name="alien14" parent="." instance=ExtResource("3_hifwd")]
+position = Vector2(198, 150)
+
+[node name="alien15" parent="." instance=ExtResource("3_hifwd")]
+position = Vector2(666, 152)
+
+[node name="alien16" parent="." instance=ExtResource("3_hifwd")]
+position = Vector2(760, 151)
+
+[node name="alien17" parent="." instance=ExtResource("3_hifwd")]
+position = Vector2(853, 152)
+
+[node name="alien18" parent="." instance=ExtResource("3_hifwd")]
+position = Vector2(944, 150)
+
+[node name="alien2" parent="alien18" instance=ExtResource("3_hifwd")]
+position = Vector2(-650, 79)
+
+[node name="alien3" parent="alien18" instance=ExtResource("3_hifwd")]
+position = Vector2(-553, 79)
+
+[node name="alien4" parent="alien18" instance=ExtResource("3_hifwd")]
+position = Vector2(-462, 79)
+
+[node name="alien5" parent="alien18" instance=ExtResource("3_hifwd")]
+position = Vector2(-371, 79)
+
+[node name="alien6" parent="alien18" instance=ExtResource("3_hifwd")]
+position = Vector2(-747, 78)
+
+[node name="alien9" parent="alien18" instance=ExtResource("3_hifwd")]
+position = Vector2(-279, 80)
+
+[node name="alien10" parent="alien18" instance=ExtResource("3_hifwd")]
+position = Vector2(-185, 79)
+
+[node name="alien11" parent="alien18" instance=ExtResource("3_hifwd")]
+position = Vector2(-92, 80)
+
+[node name="alien12" parent="alien18" instance=ExtResource("3_hifwd")]
+position = Vector2(-1, 78)
