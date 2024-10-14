@@ -1,6 +1,5 @@
 # Space_Invaders
 - Použil jsem game engine Godot.
-- Využil jsem assety z internetu.
 - Hra obsahuje vesmírnou lod´ ve tvaru trojuhelníku ve spodní části obrazovky.
 - Híbeme pomocí šipek doleva a doprava a Pomocí mezerníku střílíme (Pohyb je řešen ve složce character_body_2d.gd a střílení v shot.gd).
 - Dále hra obsahuje nepřáte, které jdou zezhora obrazovky a náhodně po nás strílí (Toto je řešeno ve složce alien.gd a střílení ve složce area_2d.gd).
